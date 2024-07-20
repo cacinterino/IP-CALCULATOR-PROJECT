@@ -4,7 +4,7 @@ Calculate the data based on the "per host" or "per subnet" option. Will display 
 
 Study Group Members:
 
-1. Kathleen Ocampo
-2. Carl Beltran
-3. Carl Andre Interino
-4. Franzel Jordan Aguiluz
+1. Kathleen Ocampo - 21006636410
+2. Carl Beltran - 22013542010
+3. Carl Andre Interino - 22012198210
+4. Franzel Jordan Aguiluz - 22011458310
