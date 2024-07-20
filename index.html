@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subnet Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Subnet Calculator</h1>
+        <div class="input-section">
+            <label for="ip-address" style="font-weight: bold;">IP Address:</label>
+            <input type="text" id="ip-address" placeholder="e.g., 192.168.1.1">
+            <button id="class-button">Get Class</button>
+            <p id="class-result" style="font-weight: lighter; margin: 20px 0 0 0 ;"></p>
+        </div>
+        <div class="calculation-section">
+            <h2>Calculation Options</h2>
+            <div class="calc">
+            <div>
+                <h3>Option 1: Number of Hosts</h3>
+                <input type="text" id="num-hosts" placeholder="Number of hosts">
+                <button id="hosts-button">Calculate</button>
+            </div>
+            <div>
+                <h3>Option 2: Number of Subnets</h3>
+                <input type="text" id="num-subnets" placeholder="Number of subnets">
+                <button id="subnets-button">Calculate</button>
+            </div>
+            </div>
+            <div id="results"></div>
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
